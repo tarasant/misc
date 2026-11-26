@@ -4,12 +4,30 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## About me
 
-I work mostly on web frontends and backend APIs. Defaults unless a project says otherwise:
+I work mostly on web frontends and backend APIs.
 
-- TypeScript for frontend and backend.
-- Python for scripting.
+## Preferred stack
+
+These are defaults. A project can override them. Do not pin versions here.
+
+- React with Next.js (App Router).
+- TypeScript for frontend and backend. Python for scripting.
 - pnpm as the package manager.
-- Tailwind for styling.
+- Tailwind CSS with shadcn/ui.
+- PostgreSQL with Prisma. Neon for hosted databases.
+- Zod for validation. React Hook Form for forms.
+- Self-hosted auth library (for example Better Auth) over a hosted auth service.
+- Vitest for unit tests. Playwright for end-to-end tests.
+- Vercel for hosting.
+- Docker (Compose) is an option for local services such as Postgres. It is not required. Run the app itself directly with `pnpm dev`.
+
+## Cost
+
+My projects are hobby projects. Use free services and third parties when possible.
+
+- Only suggest services that are verified and trusted. Check that the free tier exists and is still current.
+- If a paid option is much better, you can suggest it. Always say clearly that it costs money.
+- Do not add a paid service without my approval.
 
 ## Working style
 
