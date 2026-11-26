@@ -55,6 +55,8 @@ My projects are hobby projects. Use free services and third parties when possibl
 ## Git
 
 - Never commit unless I ask.
+- Never push, open a pull request, or merge without asking me first. Ask every time.
+- One approval covers one step. "Commit" means commit only. Ask again before push, and again before merge.
 - Branch before making changes. Don't work directly on main.
 - Use Conventional Commits (`feat:`, `fix:`, `chore:`, etc.) when I do ask for a commit.
 - Make atomic commits. One logical change per commit. Each commit builds and passes tests on its own.
