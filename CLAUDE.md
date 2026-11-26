@@ -57,3 +57,5 @@ My projects are hobby projects. Use free services and third parties when possibl
 - Never commit unless I ask.
 - Branch before making changes. Don't work directly on main.
 - Use Conventional Commits (`feat:`, `fix:`, `chore:`, etc.) when I do ask for a commit.
+- Make atomic commits. One logical change per commit. Each commit builds and passes tests on its own.
+- Commit messages tell the story of why, not only how. The diff shows how. The message explains the reason for the change, the problem it solves, and any choice that was not obvious. Keep messages short: a clear subject line, and a few lines of body only when the why is not obvious from the subject.
