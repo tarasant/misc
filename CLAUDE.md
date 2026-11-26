@@ -39,6 +39,9 @@ My projects are hobby projects. Use free services and third parties when possibl
 
 - Use ASD-STE100 Simplified Technical English for everything written for me: explanations, code comments, commit messages, issues, and tickets.
 - Short sentences, active voice, one idea per sentence, simple common words, no idioms.
+- Never show me a bare code or ID. When you mention a requirement, task, option, question, or ticket by ID (for example FR-020), add a short label in the same place (for example "FR-020 (address lookup)"). Do this even if the ID appeared earlier in the conversation.
+- Make each question stand on its own. I should not need to scroll up to understand it.
+- When you start a subagent, tell it to follow these two rules.
 
 ## Code style
 
